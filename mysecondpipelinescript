@@ -1,0 +1,22 @@
+println "My Second Pipeline"
+
+stage("First Stage")
+{
+    println "First Stage Started!!!"
+    println "H̱ello!!!"
+    println "First Stage Completed!!!"
+}
+
+stage("Second Stage")
+{
+    println "Second Stage Started!!!"
+    println "H̱ello!!!"
+    println "Second Stage Completed!!!"
+}
+
+stage("Last Stage")
+{
+    println "Last Stage Started!!!"
+    println "H̱ello!!!"
+    println "Last Stage Completed!!!"
+}
